@@ -5,80 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Tokyo Vibes</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./imgs/tokyo-tower.png" />
+
 </head>
 
 <body>
     <div class="page">
         <header class="header">
             <div>
-                <img id="header-logo" src="./imgs/odin.png" alt="Header Logo" />
+                <img id="header-logo" src="./imgs/Logo.png" alt="Header Logo" />
             </div>
             <div>
                 <ul class="header-links">
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#registration">Sign Up</a></li>
                 </ul>
             </div>
         </header>
+
         <main class="content">
-            <div class="layer-one">
+            <section id="about" class="layer-one">
                 <div class="left-one">
-                    <div id="main-one">This website is awesome</div>
-                    <div id="secondary-one">This website has some subtext that goes here under the main title. It's a
-                        smaller font and the
-                        color is lower contrast.</div>
+                    <div id="main-one">Experience the Thrill of Tokyo's Unique Vibe</div>
+                    <div id="secondary-one">Uncover the secrets of Tokyo's rich history, unique traditions, and
+                        contemporary art scene.</div>
                     <div>
                         <button class="sign-up">Sign Up</button>
                     </div>
                 </div>
                 <div class="right-one">
-                    <img id="content-img" src="./imgs/content.png" alt="this is a placeholder for an image" />
+                    <img id="content-img" src="./imgs/tokyo-landscape.jpg" alt="this is a placeholder for an image" />
                 </div>
-            </div>
-            <div class="layer-two">
-                <div id="title-two">Some random information.</div>
+            </section>
+
+            <section id="explore" class="layer-two">
+                <div id="title-two">Explore By Interest</div>
                 <div class="info-two">
                     <div class="info-block">
-                        <img class="info-block-img" src="./imgs/" alt="placeholder" />
-                        <div class="text">this is some subtext under an illustration or image</div>
+                        <img class="info-block-img" src="./imgs/tokyo-akira.jpg" alt="akira" />
+                        <div class="subtitle-two">Tokyo's animated spirit</div>
+                        <div class="text">Explore the vibrant anime and manga scene in Tokyo, a city that has inspired
+                            some of the most beloved anime series and films of all time.</div>
                     </div>
                     <div class="info-block">
-                        <img class="info-block-img" src="./imgs/saffron.png" alt="placeholder" />
-                        <div class="text">this is some subtext under an illustration or image</div>
+                        <img class="info-block-img" src="./imgs/tokyo-history.jpeg" alt="historic place" />
+                        <div class="subtitle-two">Tokyo's historic charm</div>
+                        <div class="text">From ancient temples to modern skyscrapers, Tokyo's architecture reflects the
+                            city's unique blend of tradition and modernity, and is a testament to its enduring spirit.
+                        </div>
                     </div>
                     <div class="info-block">
-                        <img class="info-block-img" src="./imgs/saffron.png" alt="placeholder" />
-                        <div class="text">this is some subtext under an illustration or image</div>
+                        <img class="info-block-img" src="./imgs/tokyo-street.jpeg" alt="street" />
+                        <div class="subtitle-two">Tokyo's urban vibe</div>
+                        <div class="text">Get lost in the energy of Tokyo's bustling streets, where the city's diverse
+                            cultures and lifestyles come together to create a unique and vibrant atmosphere.</div>
                     </div>
                     <div class="info-block">
-                        <img class="info-block-img" src="./imgs/saffron.png" alt="placeholder" />
-                        <div class="text">this is some subtext under an illustration or image</div>
+                        <img class="info-block-img" src="./imgs/tokyo-painting.jpeg" alt="painting" />
+                        <div class="subtitle-two">Tokyo's timeless beauty</div>
+                        <div class="text">Discover Tokyo's rich artistic heritage through its museums, galleries, and
+                            traditional arts, which reflect the city's long and storied history.</div>
                     </div>
                 </div>
-            </div>
-            <div class="layer-three">
-                <div id="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just
-                    filling
-                    up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            </section>
+
+            <section id="registration" class="layer-three">
+                <div class="container-three">
+                    <div id="quote">To me, Tokyo is like a character in its own right. It has a personality, a spirit,
+                        and a vibe that you can feel as soon as you arrive.
+                    </div>
+                    <div id="author">- Shinichiro Watanabe, the creator of Cowboy Bebop</div>
                 </div>
-                <div id="author">- Thor, God of Thunder</div>
-            </div>
-            <div class="layer-four">
-                <div class="container">
+            </section>
+
+            <section class="layer-four">
+                <div class="container-four">
                     <div class="left-four">
-                        <div id="main-four">Call to action! It's time!</div>
-                        <div id="secondary-four">Sign up for our product by clicking that button right over there!</div>
+                        <div id="main-four">Join Us!</div>
+                        <div id="secondary-four">Join the Tokyo Vibes community and embrace the city's spirit!</div>
                     </div>
                     <div class="right-four">
                         <button class="sign-up sign-up-alt">Sign Up</button>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
-        <footer class="footer">Copyright © The Odin Project 2023</footer>
+
+        <footer class="footer">Copyright © Tokyo Vibes 2023</footer>
     </div>
 </body>
 
