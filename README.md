@@ -1,1 +1,1 @@
-This repo contains all the files needed for the example landing page described in The Odin Project's "Foundations" curriculum. 
+This repo contains all the files required for the landing page example.
